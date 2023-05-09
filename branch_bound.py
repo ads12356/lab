@@ -8,7 +8,7 @@ a
 
 one_mer = []
 for i in a:
-    if a in spectrum:
+    if a[i] in spectrum:
         print(i)
         one_mer.append(i)
 print(one_mer)
